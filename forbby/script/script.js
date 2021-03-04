@@ -53,6 +53,7 @@ function Divider (gameWidth, gameHeight) {
     this.y = gameHeight - this.height - Math.floor(0.2 * gameHeight);
 }
 Divider.prototype.draw = function(context) {
+    context.fillStyle = "#FFFF00"
     context.fillRect(this.x, this.y, this.width, this.height);
 };
 // ----------

@@ -1,4 +1,25 @@
 
-#bg{
+/* #bg{
     background-image: url('background.png');
+} */
+
+#bg{
+    background-color: bisque;
 }
+
+
+#header{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    animation: helu 2s infinite;
+    color: gold; 
+    font-size: xxx-large;
+}
+
+@keyframes helu {
+    0%   {left:800px; top:0px;}  
+    50%  {left:500px; top:0px;}
+    100% {left:800px; top:0px;}
+  }
+
