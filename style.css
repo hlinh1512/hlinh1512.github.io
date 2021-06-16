@@ -6,7 +6,7 @@
 .background{
     width: 1600px;
     height: 800px;
-    background-image: url("Material/background.jpg");
+    background-image: url("background.jpg");
 }
 
 .navbar{
